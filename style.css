@@ -127,28 +127,10 @@ body {
 #txwes {
     position: absolute;
     background-color: #304896;
-    padding: 10px 21px 5px 10px;
+    padding: 12px 20px 7px 12px;
 
     text-transform: uppercase;
     color: white;
-
-    font-size: 18px;
-    letter-spacing: 2px;
-}
-
-#txwes::after {
-    display: none;
-
-    content: "Texas Wesleyan University";
-    position: absolute;
-    background-color: #E6E6E6;
-    padding: 10px 21px 5px 10px;
-
-    text-transform: uppercase;
-    color: dimgrey;
-
-    top: 0px;
-    left: 0px;
 
     font-size: 16px;
     letter-spacing: 2px;
@@ -157,7 +139,7 @@ body {
 /**/
 #gap {
     position: relative;
-    height: 160px;
+    height: 100px;
 }
 
 #semester {
@@ -171,10 +153,12 @@ body {
 
 .course {
     display: inline-block;
+    position: relative;
 
-    padding-left: 35px;
-    padding-bottom: px;
+    padding: 0px 0px 0 35px;
+    margin-bottom: 15px;
 
+    line-height: 100%;
     font-family: Garamond;
     font-size: 26px;
     font-weight: 600;
@@ -183,10 +167,10 @@ body {
 }
 
     #eng1301 div {
-        position: relative;
+        position: absolute;
         z-index: -2;
 
-        bottom: 15px;
+        bottom: 1px;
 
         width: 160px;
         height: 9px;
@@ -194,10 +178,10 @@ body {
     }
 
     #mco1302 div {
-        position: relative;
+        position: absolute;
         z-index: -2;
 
-        bottom: 15px;
+        bottom: 1px;
 
         width: 270px;
         height: 9px;
@@ -207,28 +191,75 @@ body {
 
 
 /**/
-.info p {
-    width: 380px;
-    padding-top: 30px;
-    font-family: Quattrocento Sans;
-}
-#about {
-    font-size: 14px;
-    font-weight: 800;
-    letter-spacing: 1px;
+.info {
+
+    position: relative;
+    right: 180px;
+    margin-top: 50px;
+
 }
 
-.info a {
-    display: inline;
-    background-color: #E6E6E6;
-    margin-left: 8px;
-    padding: 7px 21px 4px 10px;
+.they-read {
+    float: left;
+    
+    font-family: Helvetica;
+	font-size: 17px;
+	font-weight: normal;
+    letter-spacing: 0.3px;
+    line-height: 170%;
+    
+    position: relative;
+	padding: 10px 16px 6px 18px;
+    
+	background:#E5E5EA;
+	border-radius: 11px;
+	color: #000;
+    
+    margin-bottom: 10px;
+}
 
+
+.they-read::before {
+		content:"";
+		position:absolute;
+		z-index:2;
+		bottom:-2px;
+		left:-7px;
+		height:20px;
+		border-left:20px solid #E5E5EA;
+		border-bottom-right-radius: 16px 14px;
+		-webkit-transform:translate(0, -2px);
+    
+}
+.they-read::after {
+		content:"";
+		position:absolute;
+		z-index:3;
+		bottom:-2px;
+		left:4px;
+		width:26px;
+		height:20px;
+		background:white;
+		border-bottom-right-radius: 10px;
+		-webkit-transform:translate(-30px, -2px);
+}
+
+#email {
     text-transform: uppercase;
-    color: black;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+    
+    margin-left: 7px;  
+}
 
-    font-family: Nunito;
-    font-size: 11px;
-    letter-spacing: 1.4px;
 
+.text {
+    padding-bottom: 145px;
+    
+    max-width: 320px;
+}
+
+.they-read img {
+    width: 27px;
 }
