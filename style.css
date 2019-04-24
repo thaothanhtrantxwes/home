@@ -63,7 +63,7 @@ body {
     height: 150px;
     top: 30%;
     left: 5%;
-    margin-left: 12%;
+    margin-left: 11%;
     z-index: -1;
 
 }
@@ -90,12 +90,12 @@ body {
 
 /*container*/
 .container {
-    margin-left: 40%;
+    margin-left: 43%;
 
 }
 
 .justsouknow {
-    padding-left: 19%;
+    padding-left: 15%;
 }
 
 #whogap{
