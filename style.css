@@ -150,7 +150,6 @@ body {
     margin: 93px 0 48px 0;
 
     width: 157px;
-    background-color: #fff;
 }
 
 .course {
@@ -166,6 +165,7 @@ body {
     font-weight: 600;
 
     text-decoration: none;
+    z-index: 3;
 }
 
     #eng1301 div {
@@ -231,7 +231,7 @@ body {
 		border-left:20px solid #E5E5EA;
 		border-bottom-right-radius: 16px 14px;
 		-webkit-transform:translate(0, -2px);
-    
+        -ms-transform:translate(0, -2px);
 }
 .they-read::after {
 		content:"";
@@ -244,6 +244,7 @@ body {
 		background:white;
 		border-bottom-right-radius: 10px;
 		-webkit-transform:translate(-30px, -2px);
+        -ms-transform:translate(-30px, -2px);
 }
 
 #email {
