@@ -145,11 +145,11 @@ body {
 #semester {
     font-family: Roboto;
     font-size: 26px;
-    font-weight: 800;
+    font-weight: 500;
     letter-spacing: 1.8px;
     margin: 93px 0 48px 0;
 
-    width: 157px;
+    width: 180px;
 }
 
 .course {
@@ -230,8 +230,12 @@ body {
 		height:20px;
 		border-left:20px solid #E5E5EA;
 		border-bottom-right-radius: 16px 14px;
+        
+        transform:translate(0, -2px);
 		-webkit-transform:translate(0, -2px);
         -ms-transform:translate(0, -2px);
+        -moz-transform:translate(0, -2px);
+        -o-transform:translate(0, -2px);
 }
 .they-read::after {
 		content:"";
@@ -243,8 +247,12 @@ body {
 		height:20px;
 		background:white;
 		border-bottom-right-radius: 10px;
+    
+        transform:translate(-30px, -2px);
 		-webkit-transform:translate(-30px, -2px);
         -ms-transform:translate(-30px, -2px);
+        -moz-transform:translate(-30px, -2px);
+        -o-transform:translate(-30px, -2px);
 }
 
 #email {
