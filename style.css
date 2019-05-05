@@ -232,7 +232,7 @@ body {
 		border-bottom-right-radius: 16px 14px;
         
         transform:translate(0, -2px);
-		-webkit-transform:translate(0, -2px);
+	-webkit-transform:translate(0, -2px);
         -ms-transform:translate(0, -2px);
         -moz-transform:translate(0, -2px);
         -o-transform:translate(0, -2px);
@@ -245,11 +245,11 @@ body {
 		left:4px;
 		width:26px;
 		height:20px;
-		background:white;
+		background: rgba(255, 255, 255, 1);
 		border-bottom-right-radius: 10px;
     
         transform:translate(-30px, -2px);
-		-webkit-transform:translate(-30px, -2px);
+	-webkit-transform:translate(-30px, -2px);
         -ms-transform:translate(-30px, -2px);
         -moz-transform:translate(-30px, -2px);
         -o-transform:translate(-30px, -2px);
