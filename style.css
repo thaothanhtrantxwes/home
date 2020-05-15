@@ -19,6 +19,9 @@ body {
     -ms-scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+}
 
 /*menubar*/
 .menubar {
@@ -192,6 +195,57 @@ body {
     
     }
 
+/**/
+.asm {
+    display: inline-block;
+    width: 220px;
+    
+    position: relative;
+    left: -50px;
+    
+    vertical-align: top;
+    margin-top: 10px;
+    margin-right: 48px;
+    margin-bottom: 28px;
+}
+
+#heading {
+    font-family: Quattrocento;
+    font-weight: 600;
+    font-size: 22px;
+    color: #141414;
+    letter-spacing: 1.3px;
+    line-height: 130%;
+    border: 0;
+    margin: 12px 0 0 0;
+}
+
+#description {
+    position: relative;
+    color: #303030;
+    margin: 5px 0 15px 0;
+    
+    font-size: 15px;
+    font-family: Quattrocento Sans;
+}
+
+#from-class {
+    left: -12px;
+    position: relative;
+    
+    display: inline;
+    text-transform: uppercase;
+    color: #333333;
+    
+    font-family: Nunito;
+    font-size: 12px; 
+    letter-spacing: 1.4px;
+    
+    padding: 8px 20px 3px 10px;
+    background-color: #F2F2F2;
+
+}
+
 
 /**/
 .info {
@@ -202,7 +256,9 @@ body {
 
 }
 
+
 .they-read {
+    display: block;
     float: left;
     
     z-index: 2;
@@ -214,17 +270,18 @@ body {
     line-height: 170%;
     
     position: relative;
-	padding: 10px 16px 6px 18px;
+	padding: 10px 19px 6px 18px;
     
 	background:rgba(229, 229, 234, 1);
 	border-radius: 15px;
 	color: #000;
     
     margin-bottom: 10px;
+    margin-right: 30px;
 }
 
 
-.they-read::before {
+.they-read:last-of-type::before {
 		content:"";
 		position:absolute;
 		z-index:-3;
@@ -243,7 +300,7 @@ body {
         -moz-transform:translate(0, -2px);
         -o-transform:translate(0, -2px);
 }
-.they-read::after {
+.they-read:last-of-type::after {
 		content:"";
 		position:absolute;
 		z-index:-2;
@@ -263,22 +320,17 @@ body {
         -o-transform:translate(-30px, -2px);
 }
 
-#email {
-    text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 1.3px;
-    font-weight: 600;
-    
-    margin-left: 7px;  
-}
-
 
 .text {
+    position: relative;
+    display: block;
     padding-bottom: 145px;
+    margin-bottom: 40px;
     
-    max-width: 320px;
+    max-width: 300px;
 }
 
 .they-read img {
     width: 27px;
 }
+
