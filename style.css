@@ -334,3 +334,10 @@ a {
     width: 27px;
 }
 
+#back-to-2019 {
+    display: inline-block;
+    
+    position: relative;
+    left: -50px;
+    top: -40px;
+}
